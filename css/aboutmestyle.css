@@ -37,7 +37,7 @@ body {
    position: relative;
    display: inline-block;
    width: 13%;
-   left: 900px;
+   left: 510px;
    bottom: 70px;
 }
 
@@ -45,7 +45,7 @@ body {
    position: relative;
    display: inline-block;
    width: 16%;
-   left: 800px;
+   left: 400px;
    bottom: 72px;
 }
 
@@ -78,7 +78,7 @@ body {
     width: 20%;
     height: 550px;
     padding: 15px;
-    margin: 50px;
+    margin: 47px;
     bottom: 50px;
     left: 5px;
     font-size: 20px;
