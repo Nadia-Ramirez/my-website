@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/works.css" type="text/css">
+</head>
+
+<body>
+    <div class="topnav">
+      <img class="logo" src="icons/self-logo.png">
+
+      <a href="index.html">HOME</a>
+
+      <a href="aboutme.html">ABOUT</a>
+
+      <a href="education.html">EDUCATION</a>
+
+      <a href="works.html">WORKS</a>
+
+        <a href="contact.html">CONTACT</a></div>
+
+    <div class="face">
+      <a href="https://www.facebook.com/yazmindesignz/">
+          <img class="face" src="icons/facebook.png"></a></div>
+
+        <div class="insta">
+      <a href="https://www.instagram.com/yazmindesignz/">
+      <img class="insta" src="icons/insta.png"></a>
+    </div>
+
+    <div class="works">
+        <h1>WORKS</h1>
+    </div>
+
+<div class="slideshow-container">
+  <div class="mySlides1">
+    <img src="pics/Screen%20Shot%202018-05-28%20at%2010.36.28%20PM.png" style="width:100%">
+    <div class="text">PHOTOGRAPHY</div>
+  </div>
+
+     <div class="mySlides1">
+    <img src="pics/laying%20in%20dress%208.04.11%20PM%20copy.jpg" style="width:100%">
+    <div class="text">PHOTOGRAPHY</div>
+  </div>
+
+  <div class="mySlides1">
+    <img src="pics/IMG_0855%20copy.jpg" width="100%">
+    <div class="text">PHOTOGRAPHY</div>
+  </div>
+
+     <div class="mySlides1">
+    <img src="pics/IMG_0859%20copy.jpg" width="100%">
+    <div class="text">PHOTOGRAPHY</div>
+  </div>
+
+      <div class="mySlides1">
+    <img src="pics/DSC_0205%20copy.JPG" width="100%">
+    <div class="text">PHOTOGRAPHY</div>
+  </div>
+
+      <div class="mySlides1">
+    <img src="pics/DSC_0387%20copy.JPG" width="100%">
+    <div class="text">PHOTOGRAPHY</div>
+  </div>
+
+  <div class="mySlides1">
+    <img src="pics/DSC_0137%20copy.JPG" width="100%">
+    <div class="text">PHOTOGRAPHY</div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+</div>
+
+
+<div class="slideshow-container">
+  <div class="mySlides2">
+    <img src="pics/JS_LOGO_ORANGE_4_BLACK%20copy.jpg" width="100%">
+    <div class="text2">GRAPHICS</div>
+  </div>
+
+  <div class="mySlides2">
+    <img src="pics/ZTeam%201.png" width="100%">
+    <div class="text2">GRAPHICS</div>
+  </div>
+
+  <div class="mySlides2">
+    <img src="pics/IMG_1335.jpg" width="100%">
+    <div class="text2">BACKSTAGE</div>
+  </div>
+
+  <div class="mySlides2">
+    <img src="pics/IMG_1332.jpg" width="100%">
+    <div class="text2">BACKSTAGE</div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+</div>
+
+<div class="slideshow-container">
+  <div class="mySlides3">
+    <img src="pics/Screen%20Shot%202018-05-28%20at%2010.42.12%20PM.png" width="100%">
+    <div class="text3">ART</div>
+  </div>
+
+  <div class="mySlides3">
+    <img src="pics/full%20mural-%20F&N.jpg" width="100%">
+    <div class="text3">MURAL</div>
+  </div>
+
+  <div class="mySlides3">
+    <img src="pics/IMG_4419%20copy.JPG" width="100%">
+    <div class="text3">MURAL</div>
+  </div>
+
+  <div class="mySlides3">
+    <img src="pics/FullSizeRender%20copy.jpg" width="100%">
+    <div class="text3">HENNA/JAGUA TATTOO</div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+</div>
+
+<script>
+var slideIndex = [1,1,1];
+var slideId = ["mySlides1", "mySlides2", "mySlides3"]
+showSlides(1, 0);
+showSlides(1, 1);
+showSlides(1, 2);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex[no]-1].style.display = "block";
+}
+</script>
+
+</body>
+</html>

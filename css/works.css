@@ -1,0 +1,126 @@
+body {
+  background-color: lightgray;
+  margin: auto;
+  font-family: Futura;
+}
+
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  position: relative;
+  float: left;
+  color: black;
+  text-align: middle;
+  padding: 30px 30px;
+  text-decoration: none;
+  font-size: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  left: 400px;
+}
+
+.topnav a:hover {
+  color: #f2f2f2;
+}
+
+.logo {
+   position: relative;
+   width: 8%;
+   float: left;
+   display: inline;
+   left: 25px;
+}
+
+.face{
+   position: relative;
+   display: inline-block;
+   width: 13%;
+   left: 900px;
+   bottom: 70px;
+}
+
+.insta{
+   position: relative;
+   display: inline-block;
+   width: 16%;
+   left: 800px;
+   bottom: 72px;
+}
+
+
+.works {
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    left: 20px;
+    bottom: 50px;
+}
+
+* {box-sizing: border-box}
+body {font-family: futura; margin:0}
+.mySlides1, .mySlides2, .mySlides3 {display: none}
+img {vertical-align: middle;}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  padding-bottom: 75px;
+  margin: auto;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 35%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: gray;
+  font-weight: normal;
+  font-size: 40px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  color: white;
+}
+
+.text {
+  color: black;
+  font-size: 40px;
+  padding: 8px 12px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.text2 {
+  color: black;
+  font-size: 40px;
+  padding: 8px 12px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.text3 {
+  color: black;
+  font-size: 40px;
+  padding: 8px 12px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}

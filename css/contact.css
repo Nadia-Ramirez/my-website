@@ -1,0 +1,150 @@
+body {
+  background-color: lightgray;
+  margin: auto;
+  font-family: Futura;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  position: relative;
+  float: left;
+  color: black;
+  text-align: middle;
+  padding: 30px 30px;
+  text-decoration: none;
+  font-size: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  left: 400px;
+}
+
+.topnav a:hover {
+  color: #f2f2f2;
+}
+
+.logo {
+   position: relative;
+   width: 8%;
+   float: left;
+   display: inline;
+   left: 25px;
+}
+
+.face{
+   position: relative;
+   display: inline-block;
+   width: 13%;
+   left: 900px;
+   bottom: 70px;
+}
+
+.insta{
+   position: relative;
+   display: inline-block;
+   width: 16%;
+   left: 800px;
+   bottom: 72px;
+}
+
+
+.contact {
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+}
+
+.text {
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+    bottom: 30px;
+}
+
+.contactcontent {
+  position: relative;
+  width: 33%;
+  display: block;
+  float: left;
+  text-align: center;
+  padding: 5px 5px;
+  margin-top: 15px;
+  margin-right: auto;
+  margin-left: 150px;
+  bottom: 15px;
+}
+
+
+.contactcontent a:hover {
+    color: #f2f2f2;
+}
+
+.contactcontent2 {
+  position: relative;
+  width: 41%;
+  display: block;
+  float: left;
+  text-align: center;
+  padding: 5px 5px;
+  margin-top: 15px;
+  margin-right: auto;
+  left: 100px;
+}
+
+
+.contactcontent2 a:hover {
+    color: #f2f2f2;
+}
+
+
+h3 {
+   position: relative;
+   top: 30px;
+   right: 30px;
+   float: left;
+   display: block;
+   font-size: 25px;
+   left: 15px;
+}
+
+
+input[type=text] {
+    position: relative;
+    width: 75%;
+    padding: 12px 20px;
+    top: 70px;
+    left: 250px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #33cc33;
+    font-family: futura;
+    color: black;
+    background-color: transparent;
+    font-size: 19px;
+    display: block;
+}
+
+::placeholder {
+    font-size: 19px;
+    color: gray;
+    opacity: 1;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: transparent;
+    position: relative;
+    display: block;
+    top: 90px;
+    left: 975px;
+    border: none;
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: futura;
+    font-size: 23px;
+}
